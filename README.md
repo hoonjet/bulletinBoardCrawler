@@ -19,5 +19,6 @@ Simple webcrawler example coded with VBA: Programmed with Excel 2016, tested wit
         
 == Core codes (web crawling) ==
 
+
 Crawler.xlsm : Excel file with VBA macro and other documents (VBA must be enabled)
 WebCrawler.bas : Exported basic file
