@@ -5,11 +5,12 @@ Simple webcrawler example coded with VBA: Programmed with Excel 2016, tested wit
 - Designed for bullentin boards in www.munpia.com, but could be easily modified for other sites
 
 == Core codes (web crawling) ==
-        targetURL = target & "/page/" & i 'URL format for targetted webpage (i is page number in For Loop)
-        
+
+        'Use XmlHttpRequest
         'XmlHttpRequest object is used to make HTTP requests in VBA
         'please refer: https://codingislove.com/http-requests-excel-vba/
-        
+
+        targetURL = target & "/page/" & i 'URL format for targetted webpage (i is page number in For Loop)        
         Set XMLHTTP = CreateObject("MSXML2.serverXMLHTTP")
         XMLHTTP.Open "GET", targetURL, False
         XMLHTTP.setRequestHeader "Content-Type", "text/xml" 'Crawl data (source code)
