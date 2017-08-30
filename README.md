@@ -3,8 +3,7 @@ Simple webcrawler example coded with VBA: Programmed with Excel 2016, tested wit
 
 - Crawl web information (Bulletin boards), performing statistical analysis 
 - Designed for bullentin boards in www.munpia.com, but could be easily modified for other sites
-
-== Core codes (web crawling) ==
+- Core codes (web crawlin part)
 
         'Use XmlHttpRequest
         'XmlHttpRequest object is used to make HTTP requests in VBA
@@ -17,8 +16,8 @@ Simple webcrawler example coded with VBA: Programmed with Excel 2016, tested wit
         XMLHTTP.send            
         crawledText = XMLHTTP.ResponseText 'Total information (Crawled from website)
         
-== Core codes (web crawling) ==
 
 
-Crawler.xlsm : Excel file with VBA macro and other documents (VBA must be enabled)
-WebCrawler.bas : Exported basic file
+- File infos
+   1. Crawler.xlsm : Excel file with VBA macro and other documents (VBA must be enabled)
+   2. WebCrawler.bas : Exported basic file
